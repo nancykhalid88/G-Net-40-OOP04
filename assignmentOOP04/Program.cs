@@ -12,6 +12,11 @@
     //overloading means writing the same function name but the change happens in the parameters and it happens at compile time (static binding)
     //while overriding is changing the method implementation using virtual or override and happens at runtime (dynamic binding) 
     #endregion
+    #region Q3
+    //Q3 : What keywords are used for Method Overriding? What does each one mean ?
+    //override: provides a new implementation for the virtual method in the base class
+    //virtual: the method is allowed to be changed in the child class
+    #endregion
     internal class Program
     {
         static void Main(string[] args)
